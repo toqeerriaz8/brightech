@@ -1,0 +1,1443 @@
+body{
+/* color: #262626; */   
+/* @font-face {
+    font-family: Montserrat;
+    src: url(fonts/Montserrat-Regular.ttf);
+    
+} */
+
+}
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    background-color: white;
+}
+.mainWrapper{
+    padding-top: 60px;
+}
+header .navbar-nav{
+    margin-left: auto;
+    
+}
+header .headerInner{
+    margin: 0 auto;
+    max-width: 74%;
+}
+.carousel-indicators li{
+    width: 10px;
+    height: 10px;
+    border-radius: 100% !important;
+    background-color: #cdcdcd;
+    
+}
+.carousel-indicators .active{
+    background-color: #29abe2;
+}
+header .navbar-light .navbar-nav .nav-link{ 
+    font-family: Montserrat;
+    font-size: 14px;
+    text-align: left;
+    color: #313541;
+}
+header .navbar-light .navbar-nav .nav-link:hover{
+    color: #29ABE2;
+}
+/* .navbar .navbar-collapse{
+    position: fixed;
+    top: 67px;
+    left: 0;
+} */
+footer .heading{
+    font-size: 16px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2c4aa2;
+    margin-bottom: 20px;
+}
+footer ul{
+    list-style: none;
+    padding: 0;
+    margin:0;
+
+}
+footer ul li .text{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: left;
+    color: #2c4aa2;;
+    width: calc(100% - 72px);
+    float: left;
+}
+footer ul li:nth-child(1){
+    margin-top: 2px;
+}
+footer ul li:last-child{
+    margin-bottom: 10px;
+}
+footer ul li .locationIcon{
+    float: left;
+    width: 25px;
+    overflow: hidden;
+}
+footer ul li .locationText{
+    float: left;
+    width: calc(100% - 25px);
+}
+footer ul li{
+    margin: 5px 0;
+    overflow: hidden;
+}
+footer ul .fb{
+    margin-right: 12px;
+}
+footer ul a{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.19;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2c4aa2;
+}
+footer ul a:hover{
+    color: #29ABE2;
+    text-decoration: none;
+}
+.navbar-light .navbar-toggler{
+    border: none !important;
+}
+.carousel-caption{
+    top: 0;
+    left: 120px;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.85);
+    margin-left: 65px;
+    height: 100%;
+    width: 485px;
+}
+.carousel-caption .inner {
+    color: #2c4aa2;
+    padding: 50px 35px;
+}
+.carousel-caption .inner h3{
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 32px;
+    letter-spacing: normal;
+    text-align: center;
+    /* padding-top: 8px; */
+}
+.carousel-caption .inner .img-holder{
+    padding: 50px 0;
+}
+
+.carousel-caption .inner p{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: center;
+}
+.nav-item .dropdown-menu{
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    opacity: 0.85;
+    margin:0;
+    background-clip: unset;
+    border-radius: 0;
+}
+.dropdown-menu{
+    left: -92px;
+}
+.nav-item .dropdown-menu .dropdown-item{
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 1.29;
+    text-align: center;
+    color: #313541;
+}
+.navbar-nav .nav-item{
+    padding: 0 15px;
+    position: relative;
+}
+.navbar .navbar-brand{
+    margin-left: -10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.About{
+    padding: 60px 0;
+    overflow: hidden;
+}
+.About .inner .heading{
+    font-family: Montserrat;
+    font-size: 45px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2c4aa2;
+    margin-bottom: 60px;83
+}
+.About .inner .paragraphAdd,
+.About .inner .paragraph{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.22;
+    letter-spacing: normal;
+    text-align: left;
+    color: #262626;
+    margin-bottom: 23px;
+}
+.About .inner .paragraphAdd{
+margin-bottom: 60px;
+}
+/* globle classes */
+.btnRegular{
+    background-color: #29ABE2;
+    border-radius: 12px;
+    border: none;
+    color: white;
+    padding: 16px 67px 16px 67px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    color: #ffffff;
+}
+.btnRegular:hover{
+    background-color: #2596c6;
+    color: white;
+}
+.btnRegular:active{
+    background-color: #2E3192;
+    border: none;
+}
+.btnSecondary{
+    background: none;
+    border-radius: 12px;
+    border: 1px solid #29ABE2;
+    color: white;
+    padding: 10px 32px 13px 32px;
+}
+.btnSecondary:hover{
+    background-color: #2596c6;
+    color: white;
+}
+.btnRegular:active{
+    background-color: #2E3192;
+    border: none;
+}
+.serviceArea .ServiceFeatures{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -8px;
+    justify-content: center;
+
+}
+.serviceArea .ServiceFeatures .feature{
+    flex-basis: 50%;
+
+}
+.ServiceFeatures .feature .inner
+{
+    border-radius: 15px;
+  border: solid 0.5px #cdcdcd;
+  margin:8px;
+}
+.ServiceFeatures .feature .title{
+    text-align: center;
+    margin-top: 15px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    text-align: center;
+    color: #262626;
+}
+/* globle classes End*/
+ 
+.mainWrapper .contantArea{
+    background-color: #262626;
+    padding: 63px 0;
+    border-radius: 0px 350px 0;
+    /* border-radius: 0px 120px 0; */
+    overflow: hidden;
+}
+.mainWrapper .contantArea .videoArea p{
+    color: white;
+    text-align: center;
+}
+.mainWrapper .contantArea .videoArea{
+    width: 860px;
+    margin: 0 auto;
+    margin-bottom: 75px;
+}
+.contantArea .videoArea .videoHolder{
+    border-radius: 10px;
+    overflow: hidden;
+}
+.serviceArea .imgArea{
+    width: 50%;
+    float: left;
+    overflow: hidden;
+    margin: 9px;
+    border: 1px solid;
+    border-radius: 13px;
+}
+.serviceArea h2{
+    color: white;
+    margin: 34px 0;
+}
+.serviceArea .imgHolder p{
+    background-color: white;
+    text-align: center;
+    padding: 15px 0;
+    border-radius: 0 0 10px 10px;
+    margin-bottom: 0;
+}
+.serviceArea .imgHolder img{
+    border-radius: 10px 10px 0 0;
+}
+.contantArea .serviceArea{
+    overflow: hidden; 
+    margin-bottom: 55px;
+}
+.featureArea{
+    margin-bottom: 55px;
+}
+.features{
+    overflow: hidden;
+    padding: 0 14px;
+}
+.features .inner{
+    background-color: #f9f9f9;
+    text-align: center;
+    overflow: hidden;
+    padding: 26px 17px;
+    border-radius: 10px;
+    margin-bottom: 7px;
+}
+.features .inner h4{
+    margin: 26px 0 ;
+}
+.features .detail{
+    padding: 0;
+    padding: 6px;
+}
+.features .row{
+    display: flex;
+    justify-content: center;
+}
+/* .features .inner .imgHolder{
+    text-align: center;
+} */
+
+.featureArea .heading{
+    color: white;
+    margin: 36px 0;
+    
+}
+.contactArea .heading{
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.23;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.contactArea{
+    overflow: hidden;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.contactArea .inner{
+    text-align: center;
+    border-radius: 0px 200px 0;
+    padding: 40px 95px;
+    border: solid 2px #2c4aa2;
+  background-color: #ffffff;
+}
+.contactArea .innerAdd{
+    background-color: #2c4aa2 !important;
+}
+.contactArea .innerAdd .heading{
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.23;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    text-align: center;
+}
+.contactArea .innerAdd .paragraph{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.22;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    text-align: center;
+    padding: 0 150px;
+
+}
+.contactArea .inner p{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    text-align: left;
+    color: #262626;
+    margin-bottom: 30px;
+}
+.contactArea .inner .info h4{
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #262626;
+}
+
+.contactArea .inner .info{
+    overflow: hidden;
+    margin: 0 auto;
+    width: 250px;
+}
+.contactArea .inner .info p{
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #262626;
+}
+.contactArea .btnRegular{
+    margin: 15px 0;
+    font-family: Montserrat;
+}
+.testimonialArea{
+    overflow: hidden;
+}
+.navbar-nav .nav-item:hover .dropdown-menu{
+    display: block;
+    left: 50%;
+    margin-left: -160px;
+    top: 100%;
+}
+header .nav-item .tab{
+    display: none;
+}
+
+/* commercial */
+.commercialWrapper .commercialInner .heading h3{
+    font-family: Montserrat;
+    font-size: 45px;
+    font-weight: 500;
+    text-align: left;
+    color: #2c4aa2;
+}
+.commercialWrapper{
+    margin: 60px auto;
+}
+.commercialInner .main{
+    padding: 60px 40px 0 40px;
+}
+.commercialInner .headingAdd{
+    margin-bottom: 60px;
+}
+.commercialInner .headingAdd h3{
+    font-family: Montserrat;
+    font-size: 45px;
+    font-weight: 500;
+    text-align: left;
+    color: #2c4aa2;
+}
+.commercialInner .paragraph{
+    font-family: Montserrat;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: left;
+  color: #262626;
+}
+.commercialInner .main .commercialFeature{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.main .commercialFeature .lable h4{
+    margin-top:30px ;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    color: #262626;
+}
+/* END commercial */
+.windowsCleaning{
+    padding: 60px 0;
+}
+.windowsCleaning .videoArea{
+    padding: 60px 0;
+}
+.windowsCleaning .videoArea .paragraph{
+    font-family: Montserrat;
+    font-size: 18px;
+    text-align: left;
+    color: #262626;
+}
+.videoArea .video .img-holder{
+    position: relative;
+    overflow: hidden;
+}
+.videoArea .video .inner{
+    overflow: hidden;
+    border-radius: 16px;
+}
+.videoArea .video .overlay{
+    position: absolute;
+    top: 0;
+    background-color: rgba(38, 38, 38, 0.4);
+    width: 95%;
+    height: 100%;
+    border-radius: 16px;
+}
+.videoArea .video .overlay .img-holder{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    width: 40px;
+    margin: 0 auto;
+}
+.video .overlay .img-holder img{
+    cursor: pointer;
+}
+.windowsCleaning .heading h3{
+    font-family: Montserrat;
+    font-size: 45px;
+    font-weight: 500;
+    text-align: left;
+    color: #2c4aa2;
+}
+.WindowsCleaningfeatureArea{
+    overflow: hidden;
+}
+.WindowsCleaningfeatureArea  .feature{
+    overflow: hidden;
+    margin-bottom: 60px;
+}
+.WindowsCleaningfeatureArea  .feature .img-holder{
+    display: inline-block;
+    float: left;
+    margin-right: 60px;
+    width:90px;
+}
+.WindowsCleaningfeatureArea  .feature .description{
+    float: left;
+    width: calc(100% - 150px);
+}
+.WindowsCleaningfeatureArea h3{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    color: #262626;
+}
+.WindowsCleaningfeatureArea  .feature .description p{
+    font-size: 14px;
+    font-weight: normal;
+    text-align: left;
+    color: #262626;
+}
+.covid19{
+    overflow: hidden;
+    padding: 60px 0;
+}
+.covid19 .Inner .heading h3{
+    font-family: Montserrat;
+    font-size: 45px;
+    font-weight: 500;
+    color: #2c4aa2;
+    margin-bottom: 60px;
+}
+.covid19 .Inner .paragraph{
+    font-family: Montserrat;
+    font-size: 18px;
+    color: #262626;
+}
+.covid19 .Inner .subHeading{
+    color: #262626;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 600;
+    margin: 30px 0;
+}
+.covid19 .Inner ul{
+    list-style: none;
+    overflow: hidden;
+    margin: 0 0 0 20px;
+    width: 75%;
+    padding: 0;
+}
+.covid19 .Inner ul:last-child{
+    border-bottom: solid 1px #cdcdcd;
+}
+.covid19 .Inner .tableOuter{
+    padding-top: 60px ;
+}
+.covid19 .Inner ul li{
+    float: left;
+    padding: 16px;
+    border: solid 1px #cdcdcd;
+    border-bottom: none;
+    font-family: Montserrat;
+    font-size: 14px;
+    text-align: center;
+    color: #262626;
+
+}
+.covid19 .Inner .checkPrice,
+.covid19 .Inner .tableOuter .checkPrice{
+    font-family: Montserrat;
+    font-size: 20px;
+    color: #262626;
+    padding: 60px 0;
+    /* margin-left: 21px; */
+}
+.covid19 .Inner .tableOuter .table{
+    padding-left: 95px;
+    /* padding-bottom: 60px; */
+    color: #262626 !important;
+    font-family: Montserrat !important;
+}
+.covid19 .Inner a,
+.covid19 .Inner .tableOuter a{
+    color: #29abe2;
+    text-decoration: underline;
+}
+.covid19 .Inner ul li:nth-child(1){
+    width: 25%;
+}
+.covid19 .Inner ul li:nth-child(2){
+    width: 75%;
+    border-left: none;
+    /* border-left: 0;
+    border-bottom: 0; */
+}
+/* .covid19 .Inner ul li:last-child{
+    border-bottom: solid 1px #cdcdcd;
+} */
+
+.contactUs{
+    overflow: hidden;
+    padding: 60px 0;
+}
+.contactUs .paragraph p{
+    font-family: Montserrat;
+    font-size: 18px;
+    text-align: center;
+    color: #262626;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 60px;
+}
+.contactUs form h3{
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 500;
+    text-align: left;
+    color: #2c4aa2;
+    padding-bottom: 40px;
+}
+.form-control::placeholder{
+    opacity: 0.8;
+    font-family: Montserrat;
+    font-size: 14px;
+    text-align: left;
+    color: #cdcdcd;
+    
+}
+.form-control{
+    border-radius: 15px;
+    border: solid 0.5px #cdcdcd;
+    background-color: #ffffff;
+    padding: 18px 15px 22px 15px;
+    height: 54px;
+}
+.form-group textarea{
+    height: 150px;
+}
+.form-group{
+    margin-bottom: 30px;
+}
+.form-group textarea::placeholder{
+    opacity: 0.8;
+    font-family: Montserrat;
+    font-size: 14px;
+    color: #cdcdcd;
+}
+.slider .listing ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: left;
+    padding: 40px 0px 40px 40px;
+}
+.slider .listing ul li{
+    margin-bottom: 15px;
+    overflow: hidden;
+    /* display: flex;
+    align-items: center; */
+}
+.slider .listing ul li .checkBox{
+    margin-right: 20px;
+    width: 22px;
+    float: left;
+}
+.listing ul li .text{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    color: #39b54a;
+    width: calc(100% - 42px);
+    float: left;
+}
+.slider .thirdSlide ul{
+    padding: 38px 0px 20px 40px;
+}
+.slider .companyLogos .logo1{
+    width: 219px;
+    height: 67px;
+    float: left;
+    margin-right: 15px;
+}
+.slider .companyLogos .logo2{
+    float: left;
+    margin-right: 15px;
+}
+.slider .companyLogos .logo3{
+    float: left;
+}
+.headerInner .navbar{
+    padding: 0;
+}
+header .navbar-nav .nav-item .nav-link{
+    padding: 28px 0px !important;
+}
+footer .socialMediaImg{
+    width: 56px;
+}
+.carousel-control-prev-icon{
+    background-image: url('../images/Arrow_left.svg');
+    height: 12%;
+}
+.carousel-control-next-icon{
+    background-image: url('../images/Arrow_right.svg');
+    height: 12%;
+}
+/* .navbar-nav .dropdown-toggle::after{
+    display: none !important;
+} */
+.Active{
+    color: #29ABE2 !important;
+    
+    font-weight: bold;
+}
+.slider .carousel{
+    overflow: hidden;
+}
+header .nav-item .fa-caret-down{
+    display: none;
+}
+.slider .mobile{
+    display: none;
+}
+
+@media screen and (max-width: 1199px) {
+    header .headerInner{
+        max-width: 74%;
+    }
+    .carousel-caption .inner .img-holder{
+        margin: 0 auto;
+        width: 60%;
+    }
+    .carousel-caption{
+        width: 350px;
+        left: 63px;
+    }
+    .carousel-caption .inner{
+        padding: 41px 16px;
+    }
+    .slider .slide3 .listing ul,
+    .slider .slide2 .listing ul{
+        padding: 0px 0px 0px 27px;
+    }
+    .slide3 .listing  ul li .text,
+    .slide2 .listing  ul li .text{
+        font-size: 13px;
+    }
+    .slide3 .carousel-caption .inner h3,
+    .slide2 .carousel-caption .inner h3{
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .slider .companyLogos .logo1{
+        width: 120px;
+        height: 34px;
+    }
+    .slider .companyLogos{
+        overflow: hidden;
+        margin-left: 35px;
+        height: 50px;
+    }
+    .slider .companyLogos .logo3{
+        width: 49px;
+        height: 39px;
+    }
+    .slider .companyLogos .logo2{
+        width: 49px;
+        height: 39px;
+    }
+    .slide3 .listing ul li{
+        margin-bottom: 6px;
+    }
+    .videoArea .video .overlay{
+        width: 94%;
+        height: 93%;
+    
+    }
+
+
+}
+@media screen and (max-width: 991px) {
+    .carousel-caption .inner h3{
+        font-size: 23px;
+    }
+    .carousel-caption .inner p{
+        font-size: 19px;
+    }
+    .carousel-caption{
+        left: 42px;
+        width: 310px;
+    }
+    .contactArea .innerAdd .paragraph{
+        padding: 0;
+    }
+    .navbar-collapse{
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+        position: absolute;
+        top: 100%;
+        z-index: 99;
+        width: 100%;
+        left: 15px;
+        background-color: #dbdbdc8c;
+    }
+    .navbar .navbar-brand{
+        margin-left: 43px;
+    }
+    /* .navbar-collapse{
+        -webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+    } */
+    .slide3 .carousel-caption .inner h3,
+    .slide2 .carousel-caption .inner h3{
+        font-size: 19px;
+    }
+    .slide3 .listing ul li .text,
+    .slide2 .listing ul li .text{
+        font-size: 11px;
+    }
+    .slider .listing ul li .checkBox{
+        width: 10px;
+    }
+    .slider .listing ul li{
+        margin-bottom: 0;
+        display: flex;
+        align-items: center;
+        }
+    .nav-item .dropdown-menu .dropdown-item{
+        text-align: left;
+        color: #2c4aa2;
+    }
+    .nav-item .dropdown-menu{
+        /* backdrop-filter: blur(10px); */
+        background: transparent;
+        border: none;
+        box-shadow: none;
+        margin-top: 0;
+        
+    }
+    header .headerInner{
+        max-width: 100%;
+    }
+    header .headerInner .navbar{
+        padding: 0 65px;
+    }
+    .navbar-collapse{
+        left: 0;
+    }
+    .navbar-nav .nav-item{
+        margin-left: 45px;
+    }
+    .dropdown-toggle::after{
+        margin-right: 17px;
+        color: #2c4aa2;
+        float: right;
+        
+    }
+    header .navbar-nav .nav-item .nav-link{
+        padding: 10px 0px !important;
+    }
+    .contactUs form h3,
+    .covid19 .Inner .heading h3,
+    .windowsCleaning .heading h3,
+    .commercialWrapper .commercialInner .heading h3,
+    .About .inner .heading{
+        font-size: 26px;
+    }
+    .covid19 .Inner .heading h3{
+        margin-bottom: 30px;
+    }
+    .contactUs .paragraph p,
+    .covid19 .Inner .paragraph,
+    .windowsCleaning .videoArea .paragraph,
+    .commercialInner .paragraph,
+    .About .inner .paragraphAdd, .About .inner .paragraph{
+        font-size: 14px;
+    }
+    .contactUs,
+    .covid19,
+    .windowsCleaning .videoArea,
+    .windowsCleaning,
+    .About{
+        padding: 30px 0;
+    }
+    .About .inner .heading{
+        font-size:  30px;
+    }   
+    .commercialWrapper{
+        margin: 30px auto;
+    }
+    .commercialInner .main{
+        padding: 30px 40px 0 40px;
+    }
+    .commercialInner .main .commercialFeature{
+        margin-bottom: 30px;
+    }
+    .videoArea .video .overlay{
+        width: 92%;
+    height: 50%;
+    }
+    .WindowsCleaningfeatureArea .feature{
+        margin-bottom: 20px;
+    }
+    .WindowsCleaningfeatureArea .feature .img-holder{
+        margin-right: 30px;
+    }
+    .covid19 .Inner .tableOuter .table{
+        padding-left: 0;
+    }
+    .covid19 .Inner .tableOuter{
+        padding-top: 40px;
+    }
+    .covid19 .Inner ul{
+        width: 45%;
+    }
+    .covid19 .Inner .checkPrice, .covid19 .Inner .tableOuter .checkPrice{
+        padding: 25px 0;
+        font-size: 14px;
+    }
+    .contactUs .paragraph p{
+        padding-bottom: 30px;
+    }
+    .contactUs form h3{
+        padding-bottom: 30px;
+        margin-bottom: 0;
+    }
+    .form-control{
+        padding: 23px 15px 27px 15px;
+    }
+    .form-group textarea{
+        padding: 14px 15px 27px 15px;
+    }
+    .contactUs{
+        padding-bottom: 60px;
+    }
+    .navbar .navbar-brand{
+        margin-left: 0;
+    }
+    .navbar-toggler{
+        padding: 0;
+    }
+    header .nav-item .tab{
+        display: inline-block;
+    }
+    header .nav-item .desktop{
+        display: none;
+    } 
+    header .nav-item a{
+        color: white !important;
+        font-weight: bold;
+    }
+    header .nav-item .fa-caret-down{
+        display: inline-block;
+        float: right;
+        margin-top: 13px;
+        color: white;
+        margin-right: 5px;
+    }
+    .navbar-nav .nav-item:hover .dropdown-menu{
+        margin-left: 0;
+    }
+    
+}
+@media screen and (max-width: 768px){
+    .carousel-caption .inner h3{
+        font-size: 19px;
+    }
+    .carousel-caption .inner p{
+        font-size: 15px;
+    }
+    .carousel-caption .inner .img-holder{
+        padding: 33px 0;
+    }
+    .carousel-caption{
+        width:243px;
+        left: 18px;
+    }
+    .About .inner .heading{
+        font-size: 26px;
+        margin-bottom: 30px;
+    }
+    .About .inner .paragraphAdd,
+    .About .inner .paragraph{
+        font-size: 14px;
+        
+    }
+    .About .inner .paragraphAdd{
+        margin-bottom: 30px;
+    }
+    .contactArea .innerAdd .heading{
+        font-size: 22px;
+    }
+    .contactArea .innerAdd .paragraph{
+        font-size: 14px;
+    }
+    .contactArea .heading{
+        margin-bottom: 30px;
+    }
+    .contactArea .inner{
+        padding: 60px 48px;
+    }
+    .contactArea .btnRegular{
+        margin:0;
+    }
+    footer .socialMediaImg{
+        float: left;
+        width: 56px;
+
+    }
+    footer .text{
+        width:calc(100% - 72px);
+        float: left;
+    }
+    .slide3 .carousel-caption,
+    .slide2 .carousel-caption{
+        left: 47px;
+
+    }
+    .slider .slide3 .listing ul,
+    .slider .slide2 .listing ul{
+        padding: 0px 0px 0px 12px;
+    }
+    .slider .listing ul li .checkBox{
+        margin-right: 10px;
+    }
+    .slide3 .listing ul li .text,
+    .slide2 .listing ul li .text{
+        width: 100%;
+    }
+    .slide3 .carousel-caption{
+        width: 268px;
+        left: 0;
+    }
+    .slider .companyLogos{
+        margin-left: 0;
+        margin-top: 5px;
+    }
+    .slider .companyLogos .logo1{
+        width: 110px;
+    }
+    .slider .companyLogos .logo3,
+    .slider .companyLogos .logo2{
+        width: 39px;
+    }
+    header .headerInner .navbar{
+        padding: 5px 65px;
+    }
+    header .headerInner{
+        max-width: 100%;
+        margin: 0;
+    }
+    .carousel-control-next{
+        right: -30px;  
+    }
+    .carousel-control-prev{
+        left: -30px;
+    }
+    /* footer .row,
+    .testimonialArea .carousel,
+    .About .inner{
+    padding-left: 28px;
+    } */
+    .contactArea .innerAdd{
+        border-radius: 0px 120px 0;
+        padding: 60px 80px;
+    }
+} 
+@media screen and (max-width: 768px){
+    .carousel-caption .inner .img-holder{
+        padding: 15px 0;
+    }
+    .slide2 .carousel-caption{
+        left: 0;
+    }
+    /* .slide2 .carousel-caption,
+    .slide3 .carousel-caption, */
+    .carousel-caption{
+        width: 216px;
+        left: 0;
+    }
+    .navbar{
+        padding: .5rem 0px;
+    }
+    .navbar-collapse{
+        left: 0;
+    }
+    .nav-item .dropdown-menu .dropdown-item{
+        text-align: left;
+        color: white;
+        padding: 10px 22px; 
+        font-weight: bold;
+    }
+    
+    .nav-item .dropdown-menu{
+        /* backdrop-filter: blur(10px); */
+        /* background: transparent; */
+        border: none;
+        box-shadow: none;
+        margin-top: 0;
+        /* background-color: #f8f8fa59; */
+        
+    }
+
+    
+}
+@media screen and (max-width: 575px){
+        .carousel-caption .inner h3{
+        font-size: 10px;
+        line-height: 14px;
+
+    }
+    .carousel-caption .inner p{
+        font-size: 6px;
+    }
+    .carousel-caption{
+        width: 160px;
+    }
+    .carousel-caption .inner .img-holder{
+        width: 100%;
+    }
+    .serviceArea .ServiceFeatures .feature{
+        flex-basis: 100%;
+    }
+    .slide3 .carousel-caption,
+    .slide2 .carousel-caption{
+        left: -16px;
+        width: 212px;
+    }
+    .slide3 .carousel-caption .inner h3,
+    .slide2 .carousel-caption .inner h3{
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .slide3 .listing ul li .text,
+    .slide2 .listing ul li .text{
+        font-size: 6px;
+    }
+    .slider .listing ul li{
+        margin-bottom: -12px;
+    }
+    .slider .slide3 .listing ul,
+    .slider .slide2 .listing ul{
+        padding: 0px 0px 26px 12px;
+    }
+    .slider .companyLogos .logo1{
+        width: 90px;
+    }
+    .slider .companyLogos .logo3, .slider .companyLogos .logo2{
+        width: 25px;
+    }
+    .slide3 .carousel-caption .inner h3{
+        margin-top: 20px;
+    }
+    .slider .slide3 .listing ul{
+        padding: 0px 0px 14px 12px;
+    }
+    .windowsCleaning{
+        padding: 30px 16px;
+    }
+    .contactUs,
+    .covid19{
+        padding: 30px 16px;
+    }
+    .carousel-control-prev{
+        left: -10px;
+    }
+    .carousel-control-next{
+        right: -10px;
+    }
+    .slider2 .mobile,
+    .slider2 .mobile,
+    .slider .mobile{
+        display: block;
+
+    }
+    .slider3 .desktop,
+    .slider2 .desktop,
+    .slider .desktop{
+        display: none;
+    }
+    .slider2 .carousel-caption,
+    .slider3 .carousel-caption,
+    .slider .carousel-caption{
+        display: none !important;
+
+    }
+        
+}
+@media screen and (max-width:475px){
+    .carousel-caption .inner .img-holder{
+        width: 70%;
+    }
+    .carousel-caption .inner .img-holder{
+        padding: 10px 0;
+
+    }
+    .carousel-caption .inner h3{
+        margin-bottom: 0;
+    margin-top: 16px;
+    }
+    .carousel-caption{
+        width: 126px;
+        margin-left: 36px;
+    }
+    .carousel-caption .inner{
+        padding: 41px 0px;
+    }
+    .slide3 .carousel-caption,
+    .slide2 .carousel-caption{
+        left: 0px;
+    width: 152px;
+    }
+    .slide3 .carousel-caption .inner h3,
+    .slide2 .carousel-caption .inner h3{
+        margin-left: 5px;
+    }
+    .slide3 .carousel-caption .inner h3{
+        font-size: 9px;
+    }
+    .slide3 .listing ul li .checkBox{
+        width: 6px;
+    }
+    .slide3 .listing ul li .checkBox{
+        margin-right: 4px;
+    }
+    .slide3 .listing ul li .text{
+        margin-top: 6px;
+    }
+    .slider .companyLogos .logo1{
+        width: 63px;
+        margin-right: 5px;
+    }
+    .slider .companyLogos .logo2{
+        width: 23px;
+        margin-right: 5px;
+    }
+    .slider .companyLogos .logo3{
+        width: 23px;
+    }
+    .slider .companyLogos{
+        margin-top: 0;
+    }
+    .slide3 .carousel-caption .inner h3{
+        line-height: 10px;
+    }
+    .slide1 .carousel-caption .inner h3
+    {
+        line-height: 12px;
+    }
+    .slider .companyLogos{
+        margin-left: 15px;
+    }
+    header .headerInner .navbar{
+        padding: 5px 16px;
+    }
+    .navbar-brand img{
+        width: 60px;
+    }
+    /* .carousel-caption{
+        position: static;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    } */
+    .carousel-caption .inner{
+        padding-top: 40px;
+        width: 100%;
+    }
+    .slide3 .carousel-caption, .slide2 .carousel-caption{
+        width: 152px;
+    margin: 0 auto;
+    }
+}
+@media screen and (max-width: 375px){
+    .About .inner .heading{
+        font-size: 20px;
+    }
+    .About .inner .paragraphAdd,
+    .About .inner .paragraph{
+        font-size: 12px;
+    }
+    .About{
+        padding: 30px 0;
+    }
+    .contactArea .inner{
+        padding: 30px 25px;
+    }
+    .contactArea .inner p{
+        font-size: 10px;
+    }
+    .contactArea .inner{
+        border-radius: 0px 100px 0;
+    }
+    .contactArea .inner .info{
+        width: 145px;
+    }
+    .contactArea .innerAdd .paragraph{
+        font-size: 12px;
+    }
+    .covid19 .Inner .heading h3,
+    .windowsCleaning .heading h3,
+    .commercialInner .headingAdd h3,
+    .commercialWrapper .commercialInner .heading h3{
+        font-size: 20px;
+    }
+    .commercialFeature .img-holder{
+        width: 60px;
+        margin: 0 auto;
+    }
+    .main .commercialFeature .lable h4{
+        font-size: 12px;
+        margin-top: 20px;
+    }
+    .main .row{
+        display: flex;
+        justify-content: center;
+    }
+    .commercialInner .headingAdd{
+        margin-bottom: 26px
+    }
+    .windowsCleaning .videoArea{
+        padding: 30px 0 45px 0;
+    }
+    .WindowsCleaningfeatureArea .feature .img-holder{
+        width: 60px;
+    }
+    .WindowsCleaningfeatureArea .feature .img-holder{
+        margin-right: 28px;
+    }
+    .WindowsCleaningfeatureArea .feature .description h3{
+        font-size: 14px;
+    }
+    .WindowsCleaningfeatureArea .feature .description p{
+        font-size: 12px;
+    }
+    .covid19 .Inner .subHeading{
+        font-size: 14px;
+    }
+    .covid19 .Inner ul{
+        width: 90%;
+    }
+    .covid19 .Inner .tableOuter .checkPrice{
+        padding: 25px 0 0 0;
+    }
+    .contactUs .paragraph p{
+        font-size: 12px;
+        width: 95%;
+    }
+    .WindowsCleaningfeatureArea .feature .description{
+        width: 100%;
+    }
+    .WindowsCleaningfeatureArea h3{
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    .WindowsCleaningfeatureArea .feature .img-holder img{
+        height: 50px;
+    }
+    .WindowsCleaningfeatureArea .feature .description p{
+        margin-top: 25px;
+    }
+    .windowsCleaning .video .overlay .img-holder{
+        height: 200%;
+    }
+
+}
+    
+
